@@ -5,6 +5,6 @@ class Pessoa:
 
 if __name__ == '__main__':
     p = Pessoa()
-    print(Pessoa.cumprimentar(p,7))
+    print(Pessoa.cumprimentar(p))
     print(id(p))
-    print(p.cumprimentar(7))
+    print(p.cumprimentar())
